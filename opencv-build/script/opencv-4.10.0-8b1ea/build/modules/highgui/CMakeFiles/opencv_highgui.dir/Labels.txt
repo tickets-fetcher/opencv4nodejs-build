@@ -1,0 +1,35 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/src/backend.cpp
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/src/roiSelector.cpp
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/cvconfig.h
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/opencv2/opencv_modules.hpp

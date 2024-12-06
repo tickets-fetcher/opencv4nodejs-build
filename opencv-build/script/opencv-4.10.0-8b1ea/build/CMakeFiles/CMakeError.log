@@ -1,0 +1,495 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c5a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c5a0.dir/build.make CMakeFiles/cmTC_4c5a0.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c5a0.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_4c5a0.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_4c5a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c5a0.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_4c5a0.dir/src.c.o -o cmTC_4c5a0 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6311/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6311.dir/build.make CMakeFiles/cmTC_f6311.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6311.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_f6311.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_f6311
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6311.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_f6311.dir/src.cxx.o -o cmTC_f6311 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_270bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_270bc.dir/build.make CMakeFiles/cmTC_270bc.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_270bc.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_270bc.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_270bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_270bc.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_270bc.dir/src.cxx.o -o cmTC_270bc 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa8b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa8b8.dir/build.make CMakeFiles/cmTC_fa8b8.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa8b8.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_fa8b8.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_fa8b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa8b8.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_fa8b8.dir/src.c.o -o cmTC_fa8b8 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9abc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9abc.dir/build.make CMakeFiles/cmTC_f9abc.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9abc.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_f9abc.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_f9abc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9abc.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_f9abc.dir/src.c.o -o cmTC_f9abc 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be888/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be888.dir/build.make CMakeFiles/cmTC_be888.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be888.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_be888.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_be888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be888.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_be888.dir/src.c.o -o cmTC_be888 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4978/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4978.dir/build.make CMakeFiles/cmTC_b4978.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4978.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_b4978.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_b4978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4978.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_b4978.dir/src.cxx.o -o cmTC_b4978 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81a21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81a21.dir/build.make CMakeFiles/cmTC_81a21.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81a21.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_81a21.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_81a21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a21.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_81a21.dir/src.c.o -o cmTC_81a21 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_808dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_808dc.dir/build.make CMakeFiles/cmTC_808dc.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_808dc.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_808dc.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_808dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_808dc.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_808dc.dir/src.c.o -o cmTC_808dc 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cfe8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1cfe8.dir/build.make CMakeFiles/cmTC_1cfe8.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cfe8.dir/src.c.o
+/usr/bin/cc   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_1cfe8.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_1cfe8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cfe8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1cfe8.dir/src.c.o -o cmTC_1cfe8 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-documentation'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ec46/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ec46.dir/build.make CMakeFiles/cmTC_5ec46.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ec46.dir/src.c.o
+/usr/bin/cc   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-documentation -o CMakeFiles/cmTC_5ec46.dir/src.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_5ec46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ec46.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5ec46.dir/src.c.o -o cmTC_5ec46 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3fd01/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3fd01.dir/build.make CMakeFiles/cmTC_3fd01.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fd01.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_3fd01.dir/CheckSymbolExists.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_3fd01.dir/build.make:78: CMakeFiles/cmTC_3fd01.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3fd01/fast] Error 2
+
+
+File /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d4b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d4b5.dir/build.make CMakeFiles/cmTC_2d4b5.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d4b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_2d4b5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2d4b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d4b5.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2d4b5.dir/CheckFunctionExists.c.o -o cmTC_2d4b5 
+/usr/bin/ld: CMakeFiles/cmTC_2d4b5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2d4b5.dir/build.make:99: cmTC_2d4b5] Error 1
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2d4b5/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98e70/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98e70.dir/build.make CMakeFiles/cmTC_98e70.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98e70.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_98e70.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_98e70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98e70.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_98e70.dir/src.cxx.o -o cmTC_98e70 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_403be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_403be.dir/build.make CMakeFiles/cmTC_403be.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_403be.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_403be.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_403be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_403be.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_403be.dir/src.cxx.o -o cmTC_403be 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_87e8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_87e8d.dir/build.make CMakeFiles/cmTC_87e8d.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87e8d.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_87e8d.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_87e8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87e8d.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_87e8d.dir/src.cxx.o -o cmTC_87e8d 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d188/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d188.dir/build.make CMakeFiles/cmTC_2d188.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d188.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_2d188.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_2d188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d188.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2d188.dir/src.cxx.o -o cmTC_2d188 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a570/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a570.dir/build.make CMakeFiles/cmTC_5a570.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a570.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_5a570.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_5a570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a570.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5a570.dir/src.cxx.o -o cmTC_5a570 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0a92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0a92.dir/build.make CMakeFiles/cmTC_f0a92.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0a92.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-comma -std=c++11 -o CMakeFiles/cmTC_f0a92.dir/src.cxx.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_f0a92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0a92.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f0a92.dir/src.cxx.o -o cmTC_f0a92 
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbb5b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbb5b.dir/build.make CMakeFiles/cmTC_dbb5b.dir/build
+gmake[1]: Entering directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbb5b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_dbb5b.dir/CheckIncludeFile.c.o -c /opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_dbb5b.dir/build.make:78: CMakeFiles/cmTC_dbb5b.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dbb5b/fast] Error 2
+
+
+

@@ -1,0 +1,57 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/include/opencv2/rapid.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/src/histogram.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/src/rapid.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/cvconfig.h"
+		},
+		{
+			"file" : "/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rapid",
+			"Module"
+		],
+		"name" : "opencv_rapid"
+	}
+}

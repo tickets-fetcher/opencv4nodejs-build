@@ -1,0 +1,23 @@
+# Target labels
+ Extra
+ opencv_rapid
+ Module
+# Source files and their labels
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/include/opencv2/rapid.hpp
+ Extra
+ opencv_rapid
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/src/histogram.cpp
+ Extra
+ opencv_rapid
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/src/rapid.cpp
+ Extra
+ opencv_rapid
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/rapid/src/precomp.hpp
+ Extra
+ opencv_rapid
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/cvconfig.h
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/opencv2/opencv_modules.hpp

@@ -1,0 +1,23 @@
+# Target labels
+ Extra
+ opencv_signal
+ Module
+# Source files and their labels
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/signal/include/opencv2/signal.hpp
+ Extra
+ opencv_signal
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/signal/include/opencv2/signal/signal_resample.hpp
+ Extra
+ opencv_signal
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/signal/src/signal_resample.cpp
+ Extra
+ opencv_signal
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/opencv_contrib/modules/signal/src/precomp.hpp
+ Extra
+ opencv_signal
+ Module
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/cvconfig.h
+/opt/orbita/node_modules/@u4/opencv-build/script/opencv-4.10.0-8b1ea/build/opencv2/opencv_modules.hpp
